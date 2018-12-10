@@ -328,6 +328,7 @@ public class ShortRoute extends JFrame implements ActionListener {
 								   busTo.xpos, busTo.ypos, color, 2.0f, DrawGraph.Layer.BASE);
 					from = to;
 				}
+				System.out.println(grafen.toString());
 			}
 			indata.close();
 		} 
