@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1832465-c635-4bdb-8adb-ec4643d8918e" name="Default Changelist" comment="" />
+    <list default="true" id="e1832465-c635-4bdb-8adb-ec4643d8918e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusEdge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DisjointSets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeFindSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/MergeFindSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tda416-labb3/DirectedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-labb3/DirectedGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tda416-labb3/DisjointSets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tda416-labb3/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-labb3/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tda416-labb3/MergeFindSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-labb3/MergeFindSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tda416-labb3/ShortRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-labb3/ShortRoute.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,76 +26,129 @@
     <session id="-95634245">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="11264" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11264" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tda416-labb3" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BusStop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ShortRoute.java">
+        <entry file="file://$PROJECT_DIR$/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="375">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <element signature="method#Edge#0;class#Edge#0" />
+                <element signature="method#toString#0;class#Edge#0" />
+                <element signature="method#equals#0;class#Edge#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BusEdge.java">
+        <entry file="file://$PROJECT_DIR$/DirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="990">
+              <caret line="140" column="13" lean-forward="true" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#DirectedGraph#0;class#DirectedGraph#0" />
+                <element signature="docComment;method#addEdge#0;class#DirectedGraph#0" />
+                <element signature="method#addEdge#0;class#DirectedGraph#0" />
+                <element signature="method#getEdgesByOrigin#0;class#DirectedGraph#0" />
+                <element signature="method#shortestPath#0;class#DirectedGraph#0" />
+                <element signature="e#2145#2159#0" expanded="true" />
+                <element signature="method#toString#0;class#DirectedGraph#0" />
+                <element signature="class#DijkstraNode#0;class#DirectedGraph#0" />
+                <element signature="e#5094#5095#0" expanded="true" />
+                <element signature="e#5117#5118#0" expanded="true" />
+                <element signature="e#5147#5148#0" expanded="true" />
+                <element signature="e#5172#5173#0" expanded="true" />
+                <element signature="e#5198#5199#0" expanded="true" />
+                <element signature="e#5230#5231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MergeFindSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+              <folding>
+                <element signature="method#MergeFindSet#0;class#MergeFindSet#0" />
+                <element signature="method#find#0;class#MergeFindSet#0" />
+                <element signature="method#merge#0;class#MergeFindSet#0" />
+                <element signature="method#main#0;class#MergeFindSet#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DirectedGraph</find>
+      <find>addEdge</find>
+      <find>System</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Disjointset.java" />
+        <option value="$PROJECT_DIR$/BusEdge.java" />
+        <option value="$PROJECT_DIR$/DijkstraNode.java" />
+        <option value="$PROJECT_DIR$/MergeFindSet.java" />
+        <option value="$PROJECT_DIR$/ShortRoute.java" />
+        <option value="$PROJECT_DIR$/Edge.java" />
+        <option value="$PROJECT_DIR$/DirectedGraph.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="4" />
+    <option name="y" value="306" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
@@ -91,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -99,20 +166,14 @@
               <item name="tda416-labb3" type="b2602c69:ProjectViewProjectNode" />
               <item name="tda416-labb3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tda416-labb3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tda416-labb3" type="462c0819:PsiDirectoryNode" />
-              <item name="DirectedGraph.shell.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544446594389" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544687227504" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,7 +187,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ShortRoute">
+    <configuration name="MergeFindSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeFindSet" />
+      <module name="tda416-labb3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShortRoute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ShortRoute" />
       <module name="tda416-labb3" />
@@ -134,9 +202,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ShortRoute" />
+      <item itemvalue="Application.MergeFindSet" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ShortRoute" />
+        <item itemvalue="Application.MergeFindSet" />
       </list>
     </recent_temporary>
   </component>
@@ -153,69 +226,51 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008104" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33013698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32901135" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DirectedGraph.shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BusEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BusStop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -223,10 +278,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NodeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
+          <folding>
+            <element signature="method#findLeading#0;class#NodeTable#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DisjointSets.java" />
+    <entry file="file://$PROJECT_DIR$/BusStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="true" selection-end-line="28" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShortRoute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="396">
+          <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+          <folding>
+            <element signature="method#findMinSpan#0;class#ShortRoute#0" />
+            <element signature="method#makeText1#0;class#ShortRoute#0" />
+            <element signature="method#makeText2#0;class#ShortRoute#0" />
+            <element signature="method#readAndDrawBIGGraph#0;class#ShortRoute#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="140" column="13" lean-forward="true" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DirectedGraph#0;class#DirectedGraph#0" />
+            <element signature="docComment;method#addEdge#0;class#DirectedGraph#0" />
+            <element signature="method#addEdge#0;class#DirectedGraph#0" />
+            <element signature="method#getEdgesByOrigin#0;class#DirectedGraph#0" />
+            <element signature="method#shortestPath#0;class#DirectedGraph#0" />
+            <element signature="e#2145#2159#0" expanded="true" />
+            <element signature="method#toString#0;class#DirectedGraph#0" />
+            <element signature="class#DijkstraNode#0;class#DirectedGraph#0" />
+            <element signature="e#5094#5095#0" expanded="true" />
+            <element signature="e#5117#5118#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
+            <element signature="e#5172#5173#0" expanded="true" />
+            <element signature="e#5198#5199#0" expanded="true" />
+            <element signature="e#5230#5231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeFindSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="method#MergeFindSet#0;class#MergeFindSet#0" />
+            <element signature="method#find#0;class#MergeFindSet#0" />
+            <element signature="method#merge#0;class#MergeFindSet#0" />
+            <element signature="method#main#0;class#MergeFindSet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="method#Edge#0;class#Edge#0" />
+            <element signature="method#toString#0;class#Edge#0" />
+            <element signature="method#equals#0;class#Edge#0" />
+          </folding>
         </state>
       </provider>
     </entry>

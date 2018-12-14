@@ -318,17 +318,16 @@ public class ShortRoute extends JFrame implements ActionListener {
 										(float)Math.random(), 
 										(float)Math.random());
 				for (int i = 0; i < antal; i++ ) {
-					int to = noderna.find( indata.next() ).getNodeNo();
+					int to = noderna.find(indata.next()).getNodeNo();
 					grafen.addEdge(
-						new BusEdge(from, to, indata.nextInt(), lineNo ));
+							new BusEdge(from, to, indata.nextInt(), lineNo));
 					// Draw
 					BusStop busFrom = noderna.find(from);
-					BusStop busTo   = noderna.find(to);
-					karta.drawLine(busFrom.xpos, busFrom.ypos, 
-								   busTo.xpos, busTo.ypos, color, 2.0f, DrawGraph.Layer.BASE);
+					BusStop busTo = noderna.find(to);
+					karta.drawLine(busFrom.xpos, busFrom.ypos,
+							busTo.xpos, busTo.ypos, color, 2.0f, DrawGraph.Layer.BASE);
 					from = to;
 				}
-				System.out.println(grafen.toString());
 			}
 			indata.close();
 		} 

@@ -1,8 +1,11 @@
 public class MergeFindSet {
 
     private int[] set;
+    private int numberOfSets;
+
 
     public MergeFindSet(int size){
+        numberOfSets = size;
         set = new int[size];
         for(int i = 0; i < set.length; i++){
             set[i] = -1;
@@ -24,21 +27,26 @@ public class MergeFindSet {
     }
 
     /**
-     * Method for merging two Sets.
-     * Works even if the roots are not the actual roots.
+     * Method for merging two Sets. <br/>
+     * Works even if the supplied roots are not the actual roots.
      * @param root1 Index to the root of the first Set.
      * @param root2 Index to the root of the first Set.
+     * @return True is successful and False if the two elements belong to the same Set.
      */
-    public void merge(int root1, int root2){
-        //ensures that the supplied roots are acctually roots
+    public boolean merge(int root1, int root2){
+        //ensures that the supplied roots are actually roots
         root1 = find(root1);
         root2 = find(root2);
+
+        if(root1 == root2){
+            return false;
+        }
 
         //om root 2 är större än 1 swappa dem, kom ihåg att det är negativa tal
         if(set[root2] < set[root1]){
             int tmp = root1;
             root1 = root2;
-            root2 = root1;
+            root2 = tmp;
         }
 
         //Save the size of the second set
@@ -48,6 +56,18 @@ public class MergeFindSet {
 
         //Increase the first set by the size of the second set.
         set[root1] += sizeR2;
+
+        numberOfSets--;
+
+        return true;
+    }
+
+    /**
+     * Getter for the number of different sets
+     * @return the number of unique sets
+     */
+    public int getnumbOfSets(){
+        return numberOfSets;
     }
 
     /**

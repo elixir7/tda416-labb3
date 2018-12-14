@@ -8,7 +8,7 @@
 * @author Erland Holmström
 * @version (2011 added getters, toString, hashCode and equals)
 */
-public abstract class Edge {
+public abstract class Edge implements Comparable<Edge> {
 
 	/**
 	* The nodes from which the edge starts to which 
@@ -33,6 +33,19 @@ public abstract class Edge {
 	* @return the found weight.
 	*/
 	public abstract double getWeight();
+
+	/**
+	 * Implementation of compareTo, since we (Grupp 9 - Isak & Osvald) decided to implement comparable.<br/>
+	 * Compares the weight of the edges.
+	 * @param o The edge to compare
+	 * @return 1 = larger, 0 = equal, -1 = smaller
+	 */
+	@Override
+	public int compareTo(Edge o) {
+		double diff = this.getWeight() - o.getWeight();
+		return  (int) Math.signum(diff);
+
+	}
 	
 	
 	// ========================================================
@@ -52,6 +65,7 @@ public abstract class Edge {
 	public int getDest() {
 		return to;
 	}
+
 
 	/** Returns a String representation of the edge
 	* @return A String representation of the edge
